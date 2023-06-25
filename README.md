@@ -98,7 +98,7 @@ Special BDD-style syntax makes test code concise and readable.
 Expandable - you can run tests without substantial changes in any of the popular test runners.
 
 Playwright interactions auto-wait for elements to be ready. This improves reliability and simplifies test authoring. 
-Timeout-free automation. Playwright receives browser signals, like network requests, page navigations and page load events to eliminate the need for sleep timeouts that cause flakiness.
+Timeout-free automation. It receives browser signals, like network requests, page navigations and page load events to eliminate the need for sleep timeouts that cause flakiness.
 Besides JavaScript, Playwright also supports multiple programming languages such as Python, Java, and . NET C#, giving more options to QAs writing test scripts.
 It is highly useful for cross-browser testing on complex applications due to its wide coverage, accuracy, and high speed.
 
