@@ -10,8 +10,8 @@
         2. [Running the test](#running-the-test)
     3. [Configuration](#configuration)
         1. [Test Variables](#test-variables)
-3. [Design Choice](#my-design-choices)
-4. [Improvements](#additional-improvements-I-would-make-if-given-more-time)
+3. [Design Choices](#design-choices)
+4. [Improvements](#improvements)
           
 
 ## Overview
@@ -89,7 +89,7 @@ MEDIA_USER_PASSWORD: 'Your password'
 
 additional improvements you would make if given more time.
 
-## Design Choice
+## Design Choices
 
 I used CodeceptJS as my test framework and Playwright as my test tool.
 
