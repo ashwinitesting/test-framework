@@ -10,7 +10,8 @@
         2. [Running the test](#running-the-test)
     3. [Configuration](#configuration)
         1. [Test Variables](#test-variables)
-3. [Improvements](#additional-improvements-I-would-make-if-given-more-time)
+3. [Design Choice](#my-design-choices)
+4. [Improvements](#additional-improvements-I-would-make-if-given-more-time)
           
 
 ## Overview
@@ -87,6 +88,19 @@ MEDIA_USER_USERNAME: 'Your username',
 MEDIA_USER_PASSWORD: 'Your password'
 
 additional improvements you would make if given more time.
+
+## Design Choice
+
+I used CodeceptJS as my test framework and Playwright as my test tool.
+
+CodeceptJS offers scenario-driven tests. These test scenarios are linear as the user's behavior and his actions on a site.
+Special BDD-style syntax makes test code concise and readable. 
+Expandable - you can run tests without substantial changes in any of the popular test runners.
+
+Playwright interactions auto-wait for elements to be ready. This improves reliability and simplifies test authoring. 
+Timeout-free automation. Playwright receives browser signals, like network requests, page navigations and page load events to eliminate the need for sleep timeouts that cause flakiness.
+Besides JavaScript, Playwright also supports multiple programming languages such as Python, Java, and . NET C#, giving more options to QAs writing test scripts.
+It is highly useful for cross-browser testing on complex applications due to its wide coverage, accuracy, and high speed.
 
 ## Improvements
 
